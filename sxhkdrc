@@ -1,0 +1,59 @@
+super + a
+	alacritty
+
+super + l
+    lutris
+
+super + n
+	alacritty -e nnn
+
+super + x
+	syncthing
+
+super + space
+	rofi -show drun
+
+super + c
+	firefox
+
+super + s
+	steam-runtime
+
+super + shift + o
+	obs
+
+super + o
+	obsidian
+
+super + k
+	krita
+
+super + d
+	discord
+
+super + t
+	telegram-desktop
+
+Print
+    spectacle
+
+super + Escape
+	pkill -USR1 -x sxhkd
+
+super + Escape
+        pkill -USR1 -x sxhkd
+
+ctrl + alt + shift +{q,r}
+	bspc {quit,wm -r}
+
+ctrl + alt + x
+	bspc node -c
+
+ctrl + alt + shift + x
+	bspc node -k
+
+ctrl + alt + {a,s,d,f}
+        bspc node -t {tiled,floating,pseudo_tiled,fullscreen}
+
+super + {_,shift + }{1-9,}
+        bspc {desktop -f,node -d} '^{1-9}'

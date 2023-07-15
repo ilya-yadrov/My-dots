@@ -1,0 +1,15 @@
+configuration{
+   modi: "drun";
+   icon-theme: "Papirus";
+   show-icons: true;
+   terminal: "alacritty";
+   drun-display-format: "{icon} {name}";
+   location: 0;
+   disable-history: false;
+   hide-scrollbar: true;
+   side-bar-mode: true;
+}
+
+//@theme "DarkBlue"
+
+@theme "/usr/share/rofi/themes/arthur.rasi"
